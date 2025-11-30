@@ -8,25 +8,7 @@ A production-ready single-page application for defining and managing Areas of In
 
 ## 🎥 Demo Video
 
-[![Demo Video](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
-
-*Replace `VIDEO_ID` with your YouTube video ID, or use one of the options below:*
-
-**Option 1: YouTube Embed**
-```markdown
-[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-```
-
-**Option 2: Direct Video Link**
-```markdown
-[Watch Demo Video](./demo-video.mp4)
-```
-
-**Option 3: GitHub Releases**
-Upload your video to GitHub Releases and link it:
-```markdown
-[Download Demo Video](https://github.com/yourusername/aoi-map-app/releases/download/v1.0.0/demo-video.mp4)
-```
+[Watch Demo Video](https://drive.google.com/file/d/1q6nghAVBoavqSCVv-166HDNyF_Fo0wpu/view?usp=drivesdk)
 
 ## 🚀 Quick Start
 
