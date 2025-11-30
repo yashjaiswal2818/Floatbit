@@ -2,6 +2,10 @@
 
 A production-ready single-page application for defining and managing Areas of Interest (AOI) on an interactive map. Built with React, TypeScript, Leaflet, and Tailwind CSS.
 
+## 🌐 Live Demo
+
+**Live Application**: [https://aoimap.netlify.app/](https://aoimap.netlify.app/)
+
 ## 🎥 Demo Video
 
 [![Demo Video](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
