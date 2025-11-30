@@ -2,15 +2,15 @@
 
 A production-ready single-page application for defining and managing Areas of Interest (AOI) on an interactive map. Built with React, TypeScript, Leaflet, and Tailwind CSS.
 
-## 🌐 Live Demo
+## Live Demo
 
 **Live Application**: [https://aoimap.netlify.app/](https://aoimap.netlify.app/)
 
-## 🎥 Demo Video
+## Demo Video
 
 [Watch Demo Video](https://drive.google.com/file/d/1q6nghAVBoavqSCVv-166HDNyF_Fo0wpu/view?usp=drivesdk)
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 npm install
@@ -19,7 +19,7 @@ npm run dev
 
 The application will be available at `http://localhost:5173`
 
-## 📋 Features
+## Features
 
 - **Interactive Map**: Leaflet-based map with WMS layer integration
 - **Drawing Tools**: Create polygons, rectangles, and freeform shapes
@@ -29,7 +29,7 @@ The application will be available at `http://localhost:5173`
 - **View Modes**: Toggle between base image (WMS) and vector map view
 - **Accessibility**: Full keyboard navigation and ARIA labels
 
-## 🏗️ Architecture
+## Architecture
 
 ### Map Library Choice: Leaflet
 
@@ -74,7 +74,7 @@ src/
     └── nominatim.ts     # Nominatim API integration
 ```
 
-## 🎨 Design System
+## Design System
 
 ### Colors
 
@@ -97,7 +97,7 @@ src/
 - **Sidebar**: 320px fixed width
 - **Map Canvas**: Fills remaining space
 
-## 🧪 Testing
+## Testing
 
 ### Unit Tests (Vitest)
 
@@ -120,7 +120,7 @@ Test suites:
 2. **draw_and_persist.spec.ts**: Tests drawing polygons and localStorage persistence
 3. **search_and_focus.spec.ts**: Tests search functionality and map focus
 
-## ⚡ Performance Strategy
+## Performance Strategy
 
 ### Debouncing
 
@@ -148,7 +148,7 @@ For large datasets, consider:
 4. **Lazy Loading**: Load AOIs on-demand based on viewport
 5. **Web Workers**: Move heavy geometry calculations to Web Workers
 
-## 🌐 CORS Strategy for WMS
+## CORS Strategy for WMS
 
 The WMS service (`https://www.wms.nrw.de/geobasis/wms_nw_dop`) is accessed directly. If CORS issues occur:
 
@@ -158,7 +158,7 @@ The WMS service (`https://www.wms.nrw.de/geobasis/wms_nw_dop`) is accessed direc
 
 The current implementation assumes the WMS service allows cross-origin requests or is accessed from a same-origin context.
 
-## ♿ Accessibility
+## Accessibility
 
 - **Keyboard Navigation**: All interactive elements are keyboard accessible
 - **ARIA Labels**: All buttons have descriptive `aria-label` attributes
@@ -166,7 +166,7 @@ The current implementation assumes the WMS service allows cross-origin requests 
 - **Search Dropdown**: Arrow key navigation (up/down) and Enter to select
 - **Screen Reader Support**: Semantic HTML and proper ARIA roles
 
-## 🔧 Development
+## Development
 
 ### Linting
 
@@ -186,7 +186,7 @@ npm run format
 npm run build
 ```
 
-## 📦 Dependencies
+## Dependencies
 
 ### Core
 
@@ -208,7 +208,7 @@ npm run build
 - **Vitest**: Unit testing
 - **Playwright**: E2E testing
 
-## 🚢 CI/CD Notes
+## CI/CD Notes
 
 ### Recommended CI Pipeline
 
@@ -227,7 +227,7 @@ No environment variables required for basic functionality. For production:
 - Configure CORS proxy URL if needed
 - Set up analytics tracking IDs
 
-## ⏱️ Time Spent
+## Time Spent
 
 - **Project Setup**: 30 minutes
 - **Core Components**: 2 hours
@@ -241,7 +241,7 @@ No environment variables required for basic functionality. For production:
 
 **Total**: ~10.5 hours
 
-## 🔮 Future Improvements
+## Future Improvements
 
 1. **Advanced Drawing**: 
    - Curve/freeform tool implementation
@@ -271,7 +271,7 @@ No environment variables required for basic functionality. For production:
    - Collaborative editing
    - Version history
 
-## 📄 License
+## License
 
 MIT
 
